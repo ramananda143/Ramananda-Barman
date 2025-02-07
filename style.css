@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.input-section, .game-section, .game-over {
+  display: none;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#gameOver {
+  margin-top: 20px;
+  display: block;
+}
+
+#gameSection {
+  display: block;
+}
+
+#gameOver {
+  display: none;
+}
